@@ -1,0 +1,26 @@
+{
+  "name": "lrufy",
+  "version": "1.0.0",
+  "description": "A feature-rich LRU cache implementation with TTL support, custom sizing, and event hooks",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run build",
+    "example": "ts-node src/example.ts"
+  },
+  "keywords": [
+    "lru",
+    "cache",
+    "ttl",
+    "least-recently-used"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.2.2"
+  }
+}
