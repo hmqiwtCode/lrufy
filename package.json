@@ -16,8 +16,16 @@
     "ttl",
     "least-recently-used"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Quy Huynh",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hmqiwtCode/lrufy.git"
+  },
+  "homepage": "https://github.com/hmqiwtCode/lrufy#readme",
+  "bugs": {
+    "url": "https://github.com/hmqiwtCode/lrufy/issues"
+  },
   "devDependencies": {
     "@types/jest": "^29.5.14",
     "@types/node": "^20.9.0",
